@@ -1,6 +1,6 @@
 # Touch
 ## Create empty files easily
-just download from the releases and you can use from there
+just download from the releases and you can use it from there
 
 ### Example usage:
  
