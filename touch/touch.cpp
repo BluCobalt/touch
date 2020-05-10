@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
 		std::cerr << "\n";
 		std::cerr << "Example usages:\n";
 		std::cerr << "\t" << argv[0] << " __init__.py __main__.py\n";
-		std::cerr << "\t\tcreatse 2 empty files, __init__.py and __main__.py respectively.";
+		std::cerr << "\t\tcreate 2 empty files, __init__.py and __main__.py respectively.";
 		std::cerr << "\n";
 		std::cerr << "\t" << argv[0] << " config.json\n";
 		std::cerr << "\t\tcreates 1 empty file, config.json\n";
