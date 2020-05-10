@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	// eg. .\touch.exe
 	// note to self: probably going to change the usage to stdout one day
 	if (argc == 0 || argc == 1) {
-		std::cerr << "Create empty files, loosely based on the touch *nix command.\n";
+		std::cerr << "Create empty files, loosely based unix command, touch.\n";
 		std::cerr << "Usage: \n";
 		std::cerr << "\t" << argv[0] << " [file(s) to create] \n";
 		std::cerr << "\n";
