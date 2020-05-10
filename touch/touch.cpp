@@ -9,16 +9,16 @@ int main(int argc, char* argv[]) {
 	// eg. .\touch.exe
 	// note to self: probably going to change the usage to stdout one day
 	if (argc == 0 || argc == 1) {
-		std::cerr << "Create empty files, loosely based unix command, touch.\n";
-		std::cerr << "Usage: \n";
-		std::cerr << "\t" << argv[0] << " [file(s) to create] \n";
-		std::cerr << "\n";
-		std::cerr << "Example usages:\n";
-		std::cerr << "\t" << argv[0] << " __init__.py __main__.py\n";
-		std::cerr << "\t\tcreate 2 empty files, __init__.py and __main__.py respectively.";
-		std::cerr << "\n";
-		std::cerr << "\t" << argv[0] << " config.json\n";
-		std::cerr << "\t\tcreates 1 empty file, config.json\n";
+		std::cout << "Create empty files, loosely based unix command, touch.\n";
+		std::cout << "Usage: \n";
+		std::cout << "\t" << argv[0] << " [file(s) to create] \n";
+		std::cout << "\n";
+		std::cout << "Example usages:\n";
+		std::cout << "\t" << argv[0] << " __init__.py __main__.py\n";
+		std::cout << "\t\tcreate 2 empty files, __init__.py and __main__.py respectively.";
+		std::cout << "\n";
+		std::cout << "\t" << argv[0] << " config.json\n";
+		std::cout << "\t\tcreates 1 empty file, config.json\n";
 		return 0;
 	}
 	// Super simple if just one argument is given
