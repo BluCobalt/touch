@@ -7,7 +7,6 @@
 int main(int argc, char* argv[]) {
 	// Print usage into stderr if somehow no arguments are given or just the executable is called
 	// eg. .\touch.exe
-	// note to self: probably going to change the usage to stdout one day
 	if (argc == 0 || argc == 1) {
 		std::cout << "Create empty files, loosely based unix command, touch.\n";
 		std::cout << "Usage: \n";
